@@ -8,12 +8,12 @@ const Fruit = ({
 
     const dispatch = useDispatch()
 
-    const remuve = () => {
-        dispatch(actions.remuve(fruit.id))
+    const remove = () => {
+        dispatch(actions.remove(fruit.id))
     }
 
     return (
-        <div>
+        <div className="fruta">
             <ul>
                 <li>
                     <strong>Fruit: </strong>{fruit.name}
@@ -22,7 +22,7 @@ const Fruit = ({
                     <strong>Quantity: </strong>{fruit.quantity}
                 </li>
             </ul>
-            <button onClick={remuve} >Remuve</button>
+            <button onClick={remove}>Remove</button>
         </div>
     )
 }

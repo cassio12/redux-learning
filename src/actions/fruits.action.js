@@ -5,8 +5,8 @@ const actions = {
         type: actionsType.ADD_FRUIT,
         payload: fruit,
     }),
-    remuve : fruit => ({
-        type: actionsType.REMUVE_FRUIT,
+    remove : fruit => ({
+        type: actionsType.REMOVE_FRUIT,
         payload: fruit
     }),
 }

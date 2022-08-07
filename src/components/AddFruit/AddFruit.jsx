@@ -18,6 +18,12 @@ const AddFruit = () => {
         }
 
         dispatch(actions.add(fruit))
+        cleanValue()
+    }
+
+    const cleanValue = () => {
+        setName('')
+        setQuantity('')
     }
 
     return (
@@ -27,12 +33,14 @@ const AddFruit = () => {
             name={name} 
             placeholder='Fruit' 
             onChange={e => setName(e.target.value)}
+            value={name}
             />
             <input 
             type='number' 
             name={quantity} 
             placeholder='Quantity' 
             onChange={e => setQuantity(e.target.value)}
+            value={quantity}
             />
             <button type="submit">Add</button>
         </form>

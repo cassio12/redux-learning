@@ -3,7 +3,7 @@ import ListFruit from './components/ListFruit/ListFruit';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <ListFruit/>
     </div>
   );
