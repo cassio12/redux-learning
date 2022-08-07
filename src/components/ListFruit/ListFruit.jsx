@@ -8,8 +8,6 @@ const ListFruit = () => {
     const fruit = [
         {id: 1, name: 'Mamão', quantity: 3},
         {id: 2, name: 'Amora', quantity: 20},
-        {id: 3, name: 'Melão', quantity: 2},
-        {id: 4, name: 'Uva', quantity: 4},
     ]
 
     return (
