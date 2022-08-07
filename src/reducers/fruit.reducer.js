@@ -2,8 +2,9 @@ import { actionsType } from "../constants/fruits";
 
 const INITIAL_STATE = {
     fruit: [
-        {id: 3, name: 'Melão', quantity: 2},
-        {id: 4, name: 'Uva', quantity: 4}
+        {id: 1, name: 'Melon', quantity: 2},
+        {id: 2, name: 'Grape', quantity: 4},
+        {id: 3, name: 'Pear', quantity: 3},
     ]
 }
 
